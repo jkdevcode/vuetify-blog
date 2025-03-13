@@ -1,10 +1,19 @@
 <template>
   <div>
-    <h1 class="text-h1 text-center mt-10 work">View Work</h1>
+    <Navbar />
+    <h2 class="text-h2 text-center mt-10 work">View Work</h2>
+    <v-img
+        class="mb-4"
+        height="150"
+        src="@/assets/logo.png"
+      />
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+import Navbar from '@/components/Navbar.vue';
+
+</script>
 
 <style scoped>
 .work {
